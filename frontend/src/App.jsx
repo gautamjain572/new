@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar"
 import { Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home"
 import Footer from "./components/Footer"
-import Login from "./components/Login"
+import Login from "./pages/login/Login"
+import BookPage from "./pages/BookPage"
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/booking/:id' element={<BookPage />} />
+
       </Routes>
       <Footer />
     </>
