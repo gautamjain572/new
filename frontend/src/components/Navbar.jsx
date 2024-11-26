@@ -28,7 +28,7 @@ const Navbar = () => {
           <IoMdHome />
           <p>Home</p>
         </NavLink>
-        <NavLink to='/showtimings' className='flex items-center gap-1 py-1 px-3 rounded-3xl hover:bg-gray-200'>
+        <NavLink to='/showtimigs' className='flex items-center gap-1 py-1 px-3 rounded-3xl hover:bg-gray-200'>
           <BiCameraMovie />
           <p>Showtimings</p>
         </NavLink>
