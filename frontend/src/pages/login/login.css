@@ -51,10 +51,10 @@
     cursor: pointer;
 }
 
-.container button.hidden{
+/* .container button.hidden{
     background-color: transparent;
     border-color: #fff;
-}
+} */
 
 .container form{
     background-color: #fff;

@@ -11,7 +11,6 @@ const Login = () => {
     return (
         <div className="main">
             <div className={`container ${show ? 'active' : ''}`}>
-
                 <div className='form-container sign-up'>
                     <form>
                         <h1>Create Account</h1>
@@ -21,7 +20,6 @@ const Login = () => {
                         <button type='submit' onClick={(e) => handleSubmit(e)}>Sign Up</button>
                     </form>
                 </div>
-
                 <div className='form-container sign-in'>
                     <form>
                         <h1>Sign In</h1>
@@ -31,7 +29,6 @@ const Login = () => {
                         <button type='submit' onClick={(e) => handleSubmit(e)}>Login</button>
                     </form>
                 </div>
-
                 <div className="toggle-container">
                     <div className="toggle">
                         <div className="toggle-panel toggle-left">
@@ -46,7 +43,6 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     )
